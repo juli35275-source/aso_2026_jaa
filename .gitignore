@@ -1,0 +1,7 @@
+﻿"copia de maquinas limpias/"
+"maquinas virtuales/"
+*.iso
+*.vdi
+*.vmdk
+*.vhdx
+*.ova
