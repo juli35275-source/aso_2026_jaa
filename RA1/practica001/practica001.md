@@ -1,5 +1,6 @@
 ## Práctica 201
 Para conectar los cores al windows srver con entorno gráfico lo primero que tenemos que hacer al encender el core es utilizar powershell, poniendo powershell en el cli.
+tienes que usar luego el omando Enable-PSRemoting
 luego tienes que configurar el internet de la maquina usando el comando sconfig. despues de eso tiines que configurar el firewall para poder acceder desde fuera al core con los siguientes comandos : 
 
 
@@ -44,3 +45,8 @@ movemos el certificado a la carpeta compartida
 
 
 despues en el cliente le damos doble clicksobre el certificado y le damos a importar y lo importados en entidades de raid de confianza (la segunda carpeta)
+Una vez instalados en el equipo con interfaz gráfica usaremos el siguiente comando para conenctarnos al otro por https 
+
+![](./imagenes/pssesion%20https.png)
+
+y si queremos conectarnos para usar cualquier comando usamos el de pssesion que esta en otra captura seguido de lo siguiente--> -UseSSL
