@@ -27,3 +27,6 @@ El siguiente paso e asegurar la conexión mediante https que se hará con los si
 ![creamos el listener](./imagenes/crearellistener.png)
 ![exportamos el listener para luego copiarlo](./imagenes/exportar.png)
 ![movemos el certificado a la carpeta compartida](./imagenes/mover.png)
+
+
+despues en el cliente le damos doble clicksobre el certificado y le damos a importar y lo importados en entidades de raid de confianza (la segunda carpeta)
