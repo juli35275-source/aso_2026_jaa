@@ -23,9 +23,23 @@ primero nos conectamos a la maquina y luego creamos le usuarios cocn los siguien
 
 El siguiente paso e asegurar la conexión mediante https que se hará con los siguientes comandos desde el core ( tenemos que crear un certificado para poder usar https y tenemos que mandarlo al equipo desde el que vamos a acceder al core para eso usaremos una carpeta compartida entre las dos maquinas virtuales, luego tenemos que quitar el puerto de http y dejar solo el de https)
 
+comando para crear el certificado
+
 ![comando para crear el certificado](./imagenes/coamndo%20crear%20certificado.png)
+
+creamos el listener
+
+
 ![creamos el listener](./imagenes/crearellistener.png)
+
+exportamos el listener para luego copiarlo
+
+
 ![exportamos el listener para luego copiarlo](./imagenes/exportar.png)
+
+movemos el certificado a la carpeta compartida
+
+
 ![movemos el certificado a la carpeta compartida](./imagenes/mover.png)
 
 
