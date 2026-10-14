@@ -1,4 +1,4 @@
-# PRACATICA 1 DE LA UT3 JULIÁN ALMARZA ÁLVAREZ
+# PRACTICA 1 DE LA UT3 JULIÁN ALMARZA ÁLVAREZ
 1. Crea un script que muestre por pantalla la fecha y la hora del sistema
 #!/BIN/BASH/
 date
