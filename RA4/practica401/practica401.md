@@ -1,4 +1,4 @@
-# PRACTICA 2 DE LA UT3 JULIÁN ALMARZA ÁLVAREZ
+# PRACTICA 1 DE LA UT4 JULIÁN ALMARZA ÁLVAREZ
 Bloque 1: Inspección y selección de objetos (Get-Member y Select-Object)
 1. Descubriendo tipos de objetos: ejecuta el comando que lista los servicios del sistema ```(Get-Service)``` y canaliza su salida para averiguar qué tipo de objeto (TypeName) devuelve exactamente.
 ```PS C:\WINDOWS\system32> Get-Service|Get-Member```
