@@ -1,4 +1,3 @@
-$recurso = 888
-$recurso.GetType().name
-$recurso = "Puerto HTTP"
-$recurso.GetType().name
+$fechaActual = Get-Date
+Write-Host $fechaActual.Year
+Write-Host "La contrasenia caducara exactamente el" $fechaActual.AddDays(45)
