@@ -197,3 +197,11 @@ $n = "Fernando"
 $a = "Alonso"
 write-host $n.substring(0,1) + "." + $a.substring(0,1) + "."
 ```
+25. Inversión de fecha. Transforma formato europeo a formato base de datos ISO (YYYYMMDD) sin guiones.
+
+Entrada: $euDate = "31-12-2023"
+Salida: 20231231
+```
+$euDate = "31-12-2023"
+
+```
