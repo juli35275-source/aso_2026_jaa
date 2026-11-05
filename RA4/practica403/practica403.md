@@ -114,6 +114,10 @@ Salida: pdf
 $fichero = "informe.pdf"
 Write-Host $fichero.Split(".")[-1]
 ```
+14.B 
+```
+$tarjeta.substring(0,15)+ "xxxx"
+```
 15. Relleno de ceros (Padding)
 
 Entrada: $numero = "7"
@@ -173,6 +177,9 @@ Write-Host $u.StartsWith("ADM")
 
 Entrada: $nombre = "JAVIER"
 Salida: Javier
+```
+$nombre.substring(0,1) + $nombre.substring(1).ToLower()
+```
 23.  Limpieza de Distinguished Name (AD). Extrae el nombre común (CN).
 
 Entrada: $dn = "CN=Beatriz,OU=Ventas,DC=dominio,DC=local"
@@ -185,3 +192,8 @@ Write-Host $dn.Substring(3).Split(",")[-4]
 $n = "Fernando"
 $a = "Alonso"
 Salida: F.A.
+```
+$n = "Fernando"
+$a = "Alonso"
+write-host $n.substring(0,1) + "." + $a.substring(0,1) + "."
+```
