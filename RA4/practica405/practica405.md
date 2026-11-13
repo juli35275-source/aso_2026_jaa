@@ -7,6 +7,7 @@ GET /api/v2/products/search?q=laptop&sort=asc [IP: 10.0.2.15] [Agent: Chrome/110
 DELETE /api/v1/admin/drop_table?confirm=true&force=1 [IP: 172.16.254.88] [Agent: ScriptBot/1.2] [ERR-0500-FATAL]
 GET /api/v1/user/profile?id=9921&token=xyz [IP: 192.168.10.102] [Agent: Firefox/109.0] [ERR-0403-FORBIDDEN]
 "@
+#divir segun el salto de lineas
 $lineas = $logsWeb.split("`n")
 foreach ($linea in $lineas) {
     #dividimos toda la lista en lineas para que ea mas facil de operar y mas tarde las convertiremos en partes cada linea
@@ -55,4 +56,3 @@ foreach ($linea in $lineas) {
     }
 }
 $reporte | Export-Csv -Path "auditoria-web.csv" -Encoding UTF8 -NoTypeInformation
-```
